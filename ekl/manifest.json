@@ -1,0 +1,23 @@
+{
+
+        "name": "Haber Ozetleme Uzantısı",
+        "description": "Eklenti açıkmasası",
+        "version":"1.0",
+        "manifest_version": 2,
+        "icons":{"16":"icon_16.png"},
+
+
+        "browser_action":
+       {
+        "default_icon":"icon_16.png",
+        "default_popup":"popup.html",
+        "dafault_title":"haber ozetleme"
+       },
+
+       "permissions" : [ 
+        "tabs"
+     ]
+
+
+
+}
